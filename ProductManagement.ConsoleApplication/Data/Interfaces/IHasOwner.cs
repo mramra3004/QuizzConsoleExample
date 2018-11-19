@@ -1,0 +1,7 @@
+namespace ProductManagement.ConsoleApplication.Data.Interfaces
+{
+    public interface IHasOwner<T>
+    {
+        T OwnerId { set; get; }
+    }
+}
